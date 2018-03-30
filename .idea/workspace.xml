@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec695cae-8e2b-498c-a218-eb743dc53a1f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/components/google-map.js" afterPath="$PROJECT_DIR$/js/components/google-map.js" />
-      <change beforePath="$PROJECT_DIR$/js/components/google-map2.js" afterPath="$PROJECT_DIR$/js/components/google-map2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,14 +13,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="773" column="71" lean-forward="true" selection-start-line="773" selection-start-column="71" selection-end-line="773" selection-end-column="71" />
+            <state relative-caret-position="510">
+              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#48634#48640#0" expanded="true" />
+                <element signature="e#42989#42995#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,6 +44,7 @@
         <option value="$PROJECT_DIR$/js/components/google-map.js" />
         <option value="$PROJECT_DIR$/js/components/google-map2.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -98,22 +97,6 @@
               <item name="home" type="b2602c69:ProjectViewProjectNode" />
               <item name="home" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="home" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="home" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="global" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="home" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -152,12 +135,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522415493901</updated>
-      <workItem from="1522415497054" duration="3104000" />
+      <workItem from="1522415497054" duration="3546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3104000" />
+    <option name="totallyTimeSpent" value="3546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1600" height="870" extended-state="7" />
@@ -270,11 +253,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="773" column="71" lean-forward="true" selection-start-line="773" selection-start-column="71" selection-end-line="773" selection-end-column="71" />
+        <state relative-caret-position="135">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="789" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#48634#48640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#42989#42995#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
