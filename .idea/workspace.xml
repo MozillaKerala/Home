@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec695cae-8e2b-498c-a218-eb743dc53a1f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/include/Mailin.php" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,30 +55,29 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+            <state relative-caret-position="330">
+              <caret line="679" column="0" lean-forward="true" selection-start-line="679" selection-start-column="0" selection-end-line="679" selection-end-column="0" />
               <folding>
-                <marker date="1522423049378" expanded="true" signature="37321:37480" ph="INSERT INTO tbl_feedback... " />
-                <marker date="1522423049378" expanded="true" signature="37961:38143" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="40040:40530" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="40485:40493" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="40671:44574" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="40754:43869" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="40805:43858" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="40835:43843" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="40909:41704" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="40990:41681" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="41778:42535" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="41859:42512" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="42609:43307" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="42690:43284" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="43439:43824" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="43963:44537" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="43989:44526" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="44024:44212" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="44062:44193" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="44264:44511" ph="..." />
-                <marker date="1522423049378" expanded="true" signature="44393:44399" ph="©" />
+                <marker date="1522429073298" expanded="true" signature="37365:37524" ph="INSERT INTO tbl_feedback... " />
+                <marker date="1522429073298" expanded="true" signature="39424:39914" ph="..." />
+                <marker date="1522429073298" expanded="true" signature="39869:39877" ph="..." />
+                <marker date="1522429073298" expanded="true" signature="40055:43958" ph="..." />
+                <marker date="1522429073298" expanded="true" signature="40138:43253" ph="..." />
+                <marker date="1522429073298" expanded="true" signature="40189:43242" ph="..." />
+                <marker date="1522429073298" expanded="true" signature="40219:43227" ph="..." />
+                <marker date="1522429073298" expanded="true" signature="40293:41088" ph="..." />
+                <marker date="1522429073298" expanded="true" signature="40374:41065" ph="..." />
+                <marker date="1522429073298" expanded="true" signature="41162:41919" ph="..." />
+                <marker date="1522429073298" expanded="true" signature="41243:41896" ph="..." />
+                <marker date="1522429073298" expanded="true" signature="41993:42691" ph="..." />
+                <marker date="1522429073298" expanded="true" signature="42074:42668" ph="..." />
+                <marker date="1522429073298" expanded="true" signature="42823:43208" ph="..." />
+                <marker date="1522429073298" expanded="true" signature="43347:43921" ph="..." />
+                <marker date="1522429073298" expanded="true" signature="43373:43910" ph="..." />
+                <marker date="1522429073298" expanded="true" signature="43408:43596" ph="..." />
+                <marker date="1522429073298" expanded="true" signature="43446:43577" ph="..." />
+                <marker date="1522429073298" expanded="true" signature="43648:43895" ph="..." />
+                <marker date="1522429073298" expanded="true" signature="43777:43783" ph="©" />
               </folding>
             </state>
           </provider>
@@ -199,17 +198,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522415493901</updated>
-      <workItem from="1522415497054" duration="5923000" />
+      <workItem from="1522415497054" duration="8928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5923000" />
+    <option name="totallyTimeSpent" value="8928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1600" height="870" extended-state="7" />
     <editor active="true" />
     <layout>
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13384813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -334,32 +334,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://table:/49fd5114/99d2d956-3f8c-4554-90ae-a82eb1bc57c9/tyvdsxuf_mozilla.tbl_feedback">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        <state relative-caret-position="330">
+          <caret line="679" column="0" lean-forward="true" selection-start-line="679" selection-start-column="0" selection-end-line="679" selection-end-column="0" />
           <folding>
-            <marker date="1522423049378" expanded="true" signature="37321:37480" ph="INSERT INTO tbl_feedback... " />
-            <marker date="1522423049378" expanded="true" signature="37961:38143" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="40040:40530" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="40485:40493" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="40671:44574" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="40754:43869" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="40805:43858" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="40835:43843" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="40909:41704" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="40990:41681" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="41778:42535" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="41859:42512" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="42609:43307" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="42690:43284" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="43439:43824" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="43963:44537" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="43989:44526" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="44024:44212" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="44062:44193" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="44264:44511" ph="..." />
-            <marker date="1522423049378" expanded="true" signature="44393:44399" ph="©" />
+            <marker date="1522429073298" expanded="true" signature="37365:37524" ph="INSERT INTO tbl_feedback... " />
+            <marker date="1522429073298" expanded="true" signature="39424:39914" ph="..." />
+            <marker date="1522429073298" expanded="true" signature="39869:39877" ph="..." />
+            <marker date="1522429073298" expanded="true" signature="40055:43958" ph="..." />
+            <marker date="1522429073298" expanded="true" signature="40138:43253" ph="..." />
+            <marker date="1522429073298" expanded="true" signature="40189:43242" ph="..." />
+            <marker date="1522429073298" expanded="true" signature="40219:43227" ph="..." />
+            <marker date="1522429073298" expanded="true" signature="40293:41088" ph="..." />
+            <marker date="1522429073298" expanded="true" signature="40374:41065" ph="..." />
+            <marker date="1522429073298" expanded="true" signature="41162:41919" ph="..." />
+            <marker date="1522429073298" expanded="true" signature="41243:41896" ph="..." />
+            <marker date="1522429073298" expanded="true" signature="41993:42691" ph="..." />
+            <marker date="1522429073298" expanded="true" signature="42074:42668" ph="..." />
+            <marker date="1522429073298" expanded="true" signature="42823:43208" ph="..." />
+            <marker date="1522429073298" expanded="true" signature="43347:43921" ph="..." />
+            <marker date="1522429073298" expanded="true" signature="43373:43910" ph="..." />
+            <marker date="1522429073298" expanded="true" signature="43408:43596" ph="..." />
+            <marker date="1522429073298" expanded="true" signature="43446:43577" ph="..." />
+            <marker date="1522429073298" expanded="true" signature="43648:43895" ph="..." />
+            <marker date="1522429073298" expanded="true" signature="43777:43783" ph="©" />
           </folding>
         </state>
       </provider>

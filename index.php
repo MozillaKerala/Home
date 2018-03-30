@@ -1,6 +1,8 @@
 
 <?php
-include "include/Mailin.php";
+include "include/class.phpmailer.php";
+include "include/class.smtp.php";
+
 $con=mysqli_connect("localhost","tyvdsxuf_mozilla","kingsman@S1","tyvdsxuf_mozilla");
 ?>
 <!DOCTYPE html>
@@ -670,26 +672,9 @@ if (isset($_POST['submit']))
 
     $ins = "INSERT INTO tbl_feedback(feed_name,feed_email,feed_message,feed_phone) VALUES ('" . $re_name . "','" . $re_mail . "','" . $re_message . "','" . $re_phone . "')";
     mysqli_query($con, $ins);
-    $message = "FeedBack recieved";
+    $message = "FeedBack recieved ";
     echo "<script type='text/javascript'>alert('$message');</script>";
 
-
-    $mailin = new Mailin('admin@mozillakerala.co', 'dzQTvOIcXyjBRr3F');
-    $mailin->
-    addTo("'.$re_mail.'", "'.$re_name.'")->
-    setFrom('admin@mozillakerala.co', 'Mozilla Kerala')->
-    setReplyTo('admin@mozillakerala.co', 'Mozilla Kerala')->
-    setSubject('Thank you for the feedback')->
-    setText('Hello')->
-    setHtml('<strong>We have recieved your feedback and will look into it.<br> 
-Thank you for taking your time to provide us with your valuable feedback
-<br><br>regards,<br> Mozilla kerala team </strong>');
-
-    $res = $mailin->send();
-    /**
-     * The success message will be returned in this format::
-     * {'result' => true, 'message' => 'Email sent'}
-     */
 }
 ?>
 
@@ -700,7 +685,7 @@ Thank you for taking your time to provide us with your valuable feedback
             <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Feedback</p>
             <h2 class="g-font-size-32--xs g-font-size-36--md">Send us a note</h2>
         </div>
-        <form>
+        <form action="#" method="post">
             <div class="row g-margin-b-40--xs">
                 <div class="col-sm-6 g-margin-b-20--xs g-margin-b-0--md">
                     <div class="g-margin-b-20--xs">
