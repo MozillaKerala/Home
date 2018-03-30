@@ -1,6 +1,8 @@
 
-
-
+<?php
+include "include/Mailin.php";
+$con=mysqli_connect("localhost","tyvdsxuf_mozilla","kingsman@S1","tyvdsxuf_mozilla");
+?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <!-- Begin Head -->
@@ -656,6 +658,40 @@
     </div>
 </div>
 <!-- End Counter -->
+<?php
+
+if (isset($_POST['submit']))
+{
+    $re_name = $_POST['txt_name'];
+    $re_mail = $_POST['txt_email'];
+    $re_message = $_POST['txt_message'];
+    $re_phone = $_POST['txt_phone'];
+
+
+    $ins = "INSERT INTO tbl_feedback(feed_name,feed_email,feed_message,feed_phone) VALUES ('" . $re_name . "','" . $re_mail . "','" . $re_message . "','" . $re_phone . "')";
+    mysqli_query($con, $ins);
+    $message = "FeedBack recieved";
+    echo "<script type='text/javascript'>alert('$message');</script>";
+
+
+    $mailin = new Mailin('admin@mozillakerala.co', 'dzQTvOIcXyjBRr3F');
+    $mailin->
+    addTo("'.$re_mail.'", "'.$re_name.'")->
+    setFrom('admin@mozillakerala.co', 'Mozilla Kerala')->
+    setReplyTo('admin@mozillakerala.co', 'Mozilla Kerala')->
+    setSubject('Thank you for the feedback')->
+    setText('Hello')->
+    setHtml('<strong>We have recieved your feedback and will look into it.<br> 
+Thank you for taking your time to provide us with your valuable feedback
+<br><br>regards,<br> Mozilla kerala team </strong>');
+
+    $res = $mailin->send();
+    /**
+     * The success message will be returned in this format::
+     * {'result' => true, 'message' => 'Email sent'}
+     */
+}
+?>
 
 <!-- Feedback Form -->
 <div class="g-bg-color--sky-light">
@@ -668,23 +704,29 @@
             <div class="row g-margin-b-40--xs">
                 <div class="col-sm-6 g-margin-b-20--xs g-margin-b-0--md">
                     <div class="g-margin-b-20--xs">
-                        <input type="text" class="form-control s-form-v2__input g-radius--50" placeholder="* Name">
+                        <input type="text" name="txt_name" class="form-control s-form-v2__input g-radius--50" placeholder="* Name">
                     </div>
                     <div class="g-margin-b-20--xs">
-                        <input type="email" class="form-control s-form-v2__input g-radius--50" placeholder="* Email">
+                        <input type="email" name="txt_email" class="form-control s-form-v2__input g-radius--50" placeholder="* Email">
                     </div>
-                    <input type="text" class="form-control s-form-v2__input g-radius--50" placeholder="* Phone">
+                    <input type="text" name="txt_phone" class="form-control s-form-v2__input g-radius--50" placeholder="* Phone">
                 </div>
                 <div class="col-sm-6">
-                    <textarea class="form-control s-form-v2__input g-radius--10 g-padding-y-20--xs" rows="8" placeholder="* Your message"></textarea>
+                    <textarea class="form-control s-form-v2__input g-radius--10 g-padding-y-20--xs" name="txt_message" rows="8" placeholder="* Your message"></textarea>
                 </div>
             </div>
             <div class="g-text-center--xs">
-                <button type="submit" class="text-uppercase s-btn s-btn--md s-btn--primary-bg g-radius--50 g-padding-x-80--xs">Submit</button>
+                <button type="submit" name="submit" class="text-uppercase s-btn s-btn--md s-btn--primary-bg g-radius--50 g-padding-x-80--xs">Submit</button>
             </div>
         </form>
     </div>
 </div>
+
+
+
+
+
+
 <!-- End Feedback Form -->
 
 <!-- Google Map -->
