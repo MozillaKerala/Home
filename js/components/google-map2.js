@@ -2,8 +2,8 @@
 
 jQuery(document).ready(function($){
   //set your google maps parameters
-  var latitude = 41.850,
-      longitude = -73.961,
+  var latitude = 10.0554143,
+      longitude = 76.3509343,
     map_zoom = 6;
 
   //google map custom marker icon - .png fallback for IE11
@@ -202,14 +202,14 @@ jQuery(document).ready(function($){
   //inizialize the map
   var map = new google.maps.Map(document.getElementById('js__google-container'), map_options);
 
-  var contentString = '<div id="content">'+
-    '<div id="siteNotice">'+
-    '</div>'+
-    '<h2 id="firstHeading" class="firstHeading">Brooklyn</h2>'+
-    '<div id="bodyContent">'+
-    '<p>277 Bedford Avenue, <br> Brooklyn, NY 11211, <br> New York, USA</p>'+
-    '</div>'+
-    '</div>';
+    var contentString = '<div id="content">'+
+        '<div id="siteNotice">'+
+        '</div>'+
+        '<h2 id="firstHeading" class="firstHeading">Kerala Technology Innovation Zone</h2>'+
+        '<div id="bodyContent">'+
+        '<p>Kerala Startup Mission <br> Kalamassery, Ernakulam <br> kerala India</p>'+
+        '</div>'+
+        '</div>';
 
   var infowindow = new google.maps.InfoWindow({
     content: contentString,
