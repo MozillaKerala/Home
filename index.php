@@ -1,8 +1,5 @@
 
 <?php
-include "include/class.phpmailer.php";
-include "include/class.smtp.php";
-
 $con=mysqli_connect("localhost","tyvdsxuf_mozilla","kingsman@S1","tyvdsxuf_mozilla");
 ?>
 <!DOCTYPE html>
@@ -128,7 +125,7 @@ $con=mysqli_connect("localhost","tyvdsxuf_mozilla","kingsman@S1","tyvdsxuf_mozil
 <div class="s-swiper js__swiper-one-item">
     <!-- Swiper Wrapper -->
     <div class="swiper-wrapper">
-        <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/wp/a.png');">
+        <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="...">
             <div class="container g-text-center--xs g-ver-center--xs">
                 <div class="g-margin-b-30--xs">
                     <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">"Being good is<br> part of our code"</h1>
@@ -305,10 +302,11 @@ $con=mysqli_connect("localhost","tyvdsxuf_mozilla","kingsman@S1","tyvdsxuf_mozil
         </div>
         <div class="row">
             <div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
-                <form class="input-group">
-                    <input type="email" class="form-control s-form-v1__input g-radius--left-50" name="email" placeholder="Enter your email">
+                <form class="input-group" action="https://mozillakerala.us12.list-manage.com/subscribe/post?u=5a4af861c8f3ed46235f8ef75&amp;id=deebdb37ab" method="post" target="_blank" novalidate>
+                    <input type="email" class="form-control s-form-v1__input g-radius--left-50" name="Email" placeholder="Enter your email">
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5a4af861c8f3ed46235f8ef75_deebdb37ab" tabindex="-1" value=""></div>
                     <span class="input-group-btn">
-                                <button type="submit" class="s-btn s-btn-icon--md s-btn-icon--white-brd s-btn--white-brd g-radius--right-50"><i class="ti-arrow-right"></i></button>
+                                <button type="submit" name="subscribe" class="s-btn s-btn-icon--md s-btn-icon--white-brd s-btn--white-brd g-radius--right-50"><i class="ti-arrow-right"></i></button>
                             </span>
                 </form>
             </div>
@@ -732,7 +730,7 @@ if (isset($_POST['submit']))
                     <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
                         <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://mozillakerala.co">Home</a></li>
                         <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://mozillakerala.co/about.html">About</a></li>
-                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Work</a></li>
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://mozillakerala.co/team.html">Team</a></li>
                         <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Contact</a></li>
                     </ul>
                 </div>
@@ -741,7 +739,7 @@ if (isset($_POST['submit']))
                         <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://twitter.com/mozillakerala?lang=en">Twitter</a></li>
                         <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://www.facebook.com/MozillaKerala/">Facebook</a></li>
                         <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://github.com/Mozkerala">GitHub</a></li>
-                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">YouTube</a></li>
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://www.youtube.com/channel/UCXRYRbiU4X1w87vVB34n_-w">YouTube</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-2 g-margin-b-40--xs g-margin-b-0--md">
@@ -749,6 +747,8 @@ if (isset($_POST['submit']))
                         <!--  <li><a class="g-font-size-15--xs g-color--white-opacity" href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes">Subscribe to Our Newsletter</a></li> -->
                         <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://www.mozilla.org/en-US/privacy/websites/">Privacy Policy</a></li>
                         <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://www.mozilla.org/en-US/about/legal/terms/mozilla/">Terms &amp; Conditions</a></li>
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://www.mozilla.org/en-US/contribute/">Get Involved</a></li>
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="https://github.com/mozkerala/Home">Source Code of this Site</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
@@ -759,9 +759,10 @@ if (isset($_POST['submit']))
         </div>
     </div>
     <!-- End Links -->
+    <p class="license" align="center">Portions of this content are ©1998–2018 by individual<span><b> Mozilla.org</b></span> contributors. Content available under a <a rel="license" href="https://www.mozilla.org/en-US/foundation/licensing/website-content/">Creative Commons license</a>.</p>
 
     <!-- Copyright -->
-    <div class="container g-padding-y-50--xs">
+    <div class="container g-padding-y-20--xs">
         <div class="row">
             <div class="col-xs-6">
                 <a href="index.html">
