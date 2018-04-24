@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: public_html/gsprint_mozilla/admin
+Sitemap: https://mozillakerala.com/sitemap.xml
