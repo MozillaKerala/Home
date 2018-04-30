@@ -14,36 +14,6 @@ include "header.php";
         <!--========== END PROMO BLOCK ==========-->
 
   <div class="container g-padding-y-80--xs g-padding-y-125--sm">
-            <div class="row g-overflow--hidden">
-                <div class="col-xs-6 g-full-width--xs g-margin-b-30--xs g-margin-b-0--lg">
-                    <!-- Speaker -->
-                    <div class="center-block g-box-shadow__dark-lightest-v1 g-width-100-percent--xs g-width-400--lg">
-                        <img class="img-responsive g-width-100-percent--xs" src="img/team/savrav.jpg" alt="Saurabh Nair">
-                    
-                            <div class="g-bg-color--primary g-padding-x-15--xs g-padding-y-10--xs g-margin-b-20--xs">
-                                <h4 class="g-font-size-22--xs g-font-size-26--sm g-color--white g-margin-b-0--xs">Saurabh Nair </h4>
-                            </div>
-                            <p class="g-font-weight--700">Founder Mozilla Kerala</p>
-                         <!--   <p>Now that we've aligned the details, it's time to get things mapped out and organized. This part is really crucial in keeping the project in line to completion.</p>-->
-                        </div>
-                    </div>
-                    <!-- End Speaker -->
-                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         <!--========== PAGE CONTENT ==========-->
         <!-- Speakers -->
