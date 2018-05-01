@@ -27,19 +27,19 @@ $con=mysqli_connect("","","","");
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         
-<meta name="Mozilla Kerala" content="Mozilla Kerala">
+        <meta name="Mozilla Kerala" content="Mozilla Kerala">
         <meta name="copyright" content="All contents avaliable under creative commons licence">
         <meta name="keywords" content="mozilla,mozillakerala,free,opensource,volnteer,webmaker,hosting">
  
 
-<meta name="description" content="MOZILLA KERALA IS A REGIONAL COMMUNITY UNDER THE GLOBAL NON-PROFIT ORGANIZATION, MOZILLA THAT IS FOUNDED ON THE ROOTS OF FREE & OPEN SOURCE SOFTWARE.">
+<meta name="description" content="Mozilla kerala is a regional community under the global non-profit organization, mozilla that is founded on the roots of free & open source software.">
 <meta name="robots" content="follow, index">
 <link rel="canonical" href="https://mozillakerala.com" />
 <!-- FB Open Graph data -->
 <meta property="og:title" content="Mozilla Kerala">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://mozillakerala.com/bg1.png">
-<meta property="og:description" content="MOZILLA KERALA IS A REGIONAL COMMUNITY UNDER THE GLOBAL NON-PROFIT ORGANIZATION, MOZILLA THAT IS FOUNDED ON THE ROOTS OF FREE & OPEN SOURCE SOFTWARE.">
+<meta property="og:description" content="Mozilla kerala is a regional community under the global non-profit organization, mozilla that is founded on the roots of free & open source software.">
 <meta property="og:url" content="https://mozillakerala.com">
 <meta property="og:site_name" content="Mozilla Kerala.">
 <meta property="fb:app_id" content="178720012781374">
@@ -50,7 +50,7 @@ $con=mysqli_connect("","","","");
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Mozilla Kerala">
-<meta name="twitter:description" content="MOZILLA KERALA IS A REGIONAL COMMUNITY UNDER THE GLOBAL NON-PROFIT ORGANIZATION, MOZILLA THAT IS FOUNDED ON THE ROOTS OF FREE & OPEN SOURCE SOFTWARE.">
+<meta name="twitter:description" content="Mozilla kerala is a regional community under the global non-profit organization, mozilla that is founded on the roots of free & open source software.">
 <meta name="twitter:image" content="https://mozillakerala.com/bg1.png">
 <meta name="twitter:url" content="https://mozillakerala.com">
 <meta name="twitter:site" content="@MozillaKerala">
@@ -58,7 +58,7 @@ $con=mysqli_connect("","","","");
 
 <!-- Schema.org markup for Google+ -->
 <meta itemprop="name" content="Mozilla Kerala">
-<meta itemprop="description" content="MOZILLA KERALA IS A REGIONAL COMMUNITY UNDER THE GLOBAL NON-PROFIT ORGANIZATION, MOZILLA THAT IS FOUNDED ON THE ROOTS OF FREE & OPEN SOURCE SOFTWARE">
+<meta itemprop="description" content="Mozilla kerala is a regional community under the global non-profit organization, mozilla that is founded on the roots of free & open source software.">
 <meta itemprop="image" content="https://mozillakerala.com/bg.jpg"> 
 
         <!-- Web Fonts -->
