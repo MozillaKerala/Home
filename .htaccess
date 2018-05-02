@@ -8,10 +8,11 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 
 IndexOptions FancyIndexing
 
-RewriteRule ^home index.php [NC,L]
-RewriteRule ^team team.php [NC,L]
+RewriteRule ^home index.html [NC,L]
+RewriteRule ^contributors contributors.html [NC,L]
+RewriteRule ^about about.html [NC,L]
 
-RewriteRule ^hosting hosting.php [NC,L]
+
 
 
 
