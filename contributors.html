@@ -218,9 +218,9 @@
 
 
       <!--========== END SWIPER SLIDER ==========-->
-
+      <input class="form-control" id="myInput" type="text" placeholder="Search................">
       <!--========== END PROMO BLOCK ==========-->
-
+<div class="contributors" id="contributors" >
       <!--========== PAGE CONTENT ==========-->
       <!-- Team -->
       <div class="row g-row-col--0">
@@ -231,13 +231,12 @@
               <div class="card" style="width:100%">
                 <img class="card-img-top" src="img/team/place.jpg" alt="Card image" style="width:100% height:auto">
                 <div class="card-body">
-                  <h3 class="card-title text-primary text-center text-center text-center font-weight-bold">Mozillian </h3>
+                  <h3 class="card-title text-primary text-center">syam </h3>
                   <p class="card-text text-primary">App Reviewer at Firefox Marketplace,MozStumbler,Localization<br>
 
                   </p>
                   <a href="https://mozillians.org/en-US/u/username/" class="btn btn-primary col-sm-4 g-margin-r-20--sm g-margin-r-20--sm g-margin-r-20--sm">Mozillians</a>
-                  <p>   </p>
-
+                  
                   <a href="https://twitter.com/username" class="fa fa-twitter "></a>
 
                   <a href="https://github.com/username" class="fa fa-github "></a>
@@ -258,7 +257,7 @@
               <div class="card" style="width:100%">
                 <img class="card-img-top" src="img/team/place.jpg" alt="Card image" style="width:100% height:auto">
                 <div class="card-body">
-                  <h3 class="card-title text-primary text-center text-center">Mozillian </h3>
+                  <h3 class="card-title text-primary text-center">syam2 </h3>
                   <p class="card-text text-primary">App Reviewer at Firefox Marketplace,MozStumbler,Localization<br>
 
                   </p>
@@ -285,7 +284,7 @@
               <div class="card" style="width:100%">
                 <img class="card-img-top" src="img/team/place.jpg" alt="Card image" style="width:100% height:auto">
                 <div class="card-body">
-                  <h3 class="card-title text-primary text-center text-center">Mozillian </h3>
+                  <h3 class="card-title text-primary text-center ">Mozillian </h3>
                   <p class="card-text text-primary">App Reviewer at Firefox Marketplace,MozStumbler,Localization<br>
 
                   </p>
@@ -315,7 +314,7 @@
               <div class="card" style="width:100%">
                 <img class="card-img-top" src="img/team/place.jpg" alt="Card image" style="width:100% height:auto">
                 <div class="card-body">
-                  <h3 class="card-title text-primary text-center text-center">Mozillian </h3>
+                  <h3 class="card-title text-primary text-center">Mozillian </h3>
                   <p class="card-text text-primary">App Reviewer at Firefox Marketplace,MozStumbler,Localization<br>
 
                   </p>
@@ -912,6 +911,8 @@
         </div>
       </div>
     </div>
+    </div>
+    
     <!-- Feedback Form -->
     <div class="g-position--relative g-bg-color--dark-light">
       <div class="g-container--md g-padding-y-80--xs g-padding-y-125--sm">
@@ -1009,7 +1010,7 @@
 
   <!-- Back To Top -->
   <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
-
+ 
   <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
   <!-- Vendor -->
   <script type="text/javascript" src="vendor/jquery.min.js"></script>
@@ -1038,6 +1039,21 @@
   <script type="text/javascript" src="js/components/parallax.min.js"></script>
 
   <script type="text/javascript" src="js/components/wow.min.js"></script>
+  <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+    });
+    </script>
+  <script>
+    $(document).ready(function(){
+      $("#myInput").on("keyup", function() {
+        var value = $(this).val().toLowerCase();
+        $("#contributors *").filter(function() {
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+      });
+    });
+    </script>
   <script>
   $(window).load(function() {
     $("body").removeClass("preload");
