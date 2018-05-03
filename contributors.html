@@ -131,7 +131,6 @@
             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="home">Home</a></li>
 
             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="contributors">contributors</a></li>
-            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="about">About Us</a></li>
 
 
             <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="https://blog.mozillakerala.org">Blog</a></li>
@@ -218,10 +217,7 @@
 
 
       <!--========== END SWIPER SLIDER ==========-->
-      <input class="form-control" id="myInput" type="text" placeholder="Search................">
-      <!--========== END PROMO BLOCK ==========-->
-<div class="contributors" id="contributors" >
-      <!--========== PAGE CONTENT ==========-->
+           <!--========== PAGE CONTENT ==========-->
       <!-- Team -->
       <div class="row g-row-col--0">
         <div class="col-md-3 col-xs-6 g-full-width--xs">
@@ -235,7 +231,7 @@
                   <p class="card-text text-primary">App Reviewer at Firefox Marketplace,MozStumbler,Localization<br>
 
                   </p>
-                  <a href="https://mozillians.org/en-US/u/username/" class="btn btn-primary col-sm-4 g-margin-r-20--sm g-margin-r-20--sm g-margin-r-20--sm">Mozillians</a>
+                  <a href="https://mozillians.org/en-US/u/syam" class="btn btn-primary col-sm-4 g-margin-r-20--sm ">Mozillians</a>
                   
                   <a href="https://twitter.com/username" class="fa fa-twitter "></a>
 
@@ -261,7 +257,7 @@
                   <p class="card-text text-primary">App Reviewer at Firefox Marketplace,MozStumbler,Localization<br>
 
                   </p>
-                  <a href="https://mozillians.org/en-US/u/username/" class="btn btn-primary col-sm-4 g-margin-r-20--sm g-margin-r-20--sm">Mozillians</a>
+                  <a href="https://mozillians.org/en-US/u/username/" class="btn btn-primary col-sm-4 g-margin-r-20--sm">Mozillians</a>
                   <p>   </p>
 
                   <a href="https://twitter.com/username" class="fa fa-twitter "></a>
@@ -911,7 +907,8 @@
         </div>
       </div>
     </div>
-    </div>
+    
+
     
     <!-- Feedback Form -->
     <div class="g-position--relative g-bg-color--dark-light">
@@ -1039,21 +1036,7 @@
   <script type="text/javascript" src="js/components/parallax.min.js"></script>
 
   <script type="text/javascript" src="js/components/wow.min.js"></script>
-  <script>
-    $(document).ready(function(){
-        $('[data-toggle="tooltip"]').tooltip();   
-    });
-    </script>
-  <script>
-    $(document).ready(function(){
-      $("#myInput").on("keyup", function() {
-        var value = $(this).val().toLowerCase();
-        $("#contributors *").filter(function() {
-          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-        });
-      });
-    });
-    </script>
+  
   <script>
   $(window).load(function() {
     $("body").removeClass("preload");
