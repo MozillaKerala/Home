@@ -1,19 +1,3 @@
-#Contributors
-
-Yadev Jayachandran
-
-Syamkumar
-
-Rigin Ommen
-
-Franklin Antony
-
-Saurabh Nair
-
-GautamKrishna R
-
-
-
 Contributing to open source can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine.
 
 Why do people contribute to open source? Plenty of reasons!
