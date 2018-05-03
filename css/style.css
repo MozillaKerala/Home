@@ -16,7 +16,7 @@ html {
 
 body {
   font-size: 1rem;
-  font-family: Lato, sans-serif;
+  font-family: Zilla Slab , serif;
   color: #222324;
   line-height: 1.6;
   background-color: #fff;
@@ -1967,7 +1967,7 @@ fieldset[disabled] .s-btn {
 .s-header-v2__dropdown-menu-link {
   font-size: 0.875rem;
   font-weight: 400;
-  font-family: Lato, sans-serif;
+  font-family: Zilla Slab , serif;
   color: rgba(34, 35, 36, 0.7) !important;
   padding: .4375rem 2rem .4375rem 1.375rem !important;
   transition-duration: 300ms;
