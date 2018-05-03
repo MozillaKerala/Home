@@ -10,7 +10,7 @@ IndexOptions FancyIndexing
 
 RewriteRule ^home index.html [NC,L]
 RewriteRule ^contributors contributors.html [NC,L]
-RewriteRule ^about about.html [NC,L]
+
 
 
 
